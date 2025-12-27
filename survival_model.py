@@ -13,6 +13,8 @@ def calculate_survival(uv_dose, decay_constant):
         UV radiation dose (in arbitrary units, e.g., J/m^2).
     decay_constant : float
         Decay constant representing microbial sensitivity to UV (unit: 1/(dose unit)).
+        Typical values for D. radiodurans range from ~0.001 to 0.05 per J/m^2
+        based on experimental data (example range).
         
     Returns
     -------
